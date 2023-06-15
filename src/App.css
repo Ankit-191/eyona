@@ -186,6 +186,11 @@
 .btnred{
   background-color: var(--clr-red);
   padding: 16px 34px;
+  transition: all 0.3s linear;
+}
+.btnred:hover{
+  background-color: var(--clr-white);
+  color: var(--clr-black-100);
 }
 .capetown_mw_160px {
   max-width: 160px;
@@ -268,6 +273,7 @@ z-index: 0;
   grid-column: 2/3;
   grid-row: 5/9;
 }
+
 .items img{
   transition: all 0.3s linear;
 }
