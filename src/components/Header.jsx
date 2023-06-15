@@ -43,7 +43,7 @@ const Header = () => {
                   <div className="flex-grow-1 d-flex flex-column justify-content-center ">
                     <Row className="justify-content-between align-items-end text-center text-sm-start ">
                       <Col xl={6}>
-                        <ul className="ps-xxl-5 ms-xxl-5 my-auto h-100 mb-5 p-0">
+                        <ul className="ps-xxl-5 ms-xxl-5 my-auto h-100 mb-5 p-0 headerhover">
                           <li className="ff_montserrat fw_700 fs_7xl clr_white ps-xxl-5">
                             Who we are
                           </li>

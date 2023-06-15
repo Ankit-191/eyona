@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import laptop from "../assets/img/webp/herocomputer.webp";
 import graph from "../assets/img/webp/heroimggraph.webp";
 import meeting from "../assets/img/webp/heromeeting.webp";
 import people from "../assets/img/webp/people.webp";
@@ -12,28 +13,9 @@ const Hero = () => {
         <Header />
         <Container className="heromw_1738 flex-grow-1 d-flex py-5">
           <div className="navcircle"></div>
-          {/* <div>
-            <div></div>
-            <div>
-              <img src={graph} alt="graph" className="w-100" />
-            </div>
-            <div>
-              <img src={meeting} alt="meeting" className="w-100" />
-            </div>
-            <div>
-              <img src={people} alt="people" className="w-100 " />
-            </div>
-            <div>
-              <img
-                src={elogo}
-                alt="elogo"
-                className="w-100"
-              />
-            </div>
-          </div> */}
-          <Row className="justify-content-between align-items-center">
+          <Row className="justify-content-between align-items-center position-relative multi_top">
             <Col lg={5}>
-              <Row>
+              {/* <Row>
                 <Col xs={6}>
                   <img src={graph} alt="graph" className="w-100" />
                 </Col>
@@ -56,7 +38,24 @@ const Hero = () => {
                     height={367}
                   />
                 </Col>
-              </Row>
+              </Row> */}
+              <div className="d_grid">
+                <div className="headitems headitems1">
+                  <img src={laptop} alt="laptop" className="w-100" />
+                </div>
+                <div className="headitems headitems2">
+                  <img src={graph} alt="graph" className="w-100" />
+                </div>
+                <div className="headitems headitems3">
+                  <img src={meeting} alt="meeting" className="w-100" />
+                </div>
+                <div className="headitems headitems4">
+                  <img src={people} alt="people" className="w-100 " />
+                </div>
+                <div className="headitems headitems5">
+                  <img src={elogo} alt="elogo" className="w-100" />
+                </div>
+              </div>
             </Col>
             <Col lg={6} xxl={5} className="me-xxl-5">
               <div className="pe-xxl-5 me-xxl-3">

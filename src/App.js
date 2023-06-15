@@ -14,7 +14,7 @@ import Managements from "./components/Managements";
 function App() {
   return (
     <>
-      {/* <Hero /> */}
+      <Hero />
       <Eyona/>
       <Worldclass/>
       <Ourproudect/>
