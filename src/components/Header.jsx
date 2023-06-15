@@ -33,7 +33,7 @@ const Header = () => {
               </button>
             </div>
             <div
-              className={`phone ${head ? "" : "left_0 clip_path"}`}
+              className={`phone ${head ? "" : "clip_path"}`}
               onClick={() => sethead(true)}
             >
               <Container className="headercontainer overflow-auto">
