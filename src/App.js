@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Hero from "./components/Hero";
+import Eyona from "./components/Eyona";
+import Worldclass from "./components/Worldclass";
+import Ourproudect from "./components/Ourproudect";
+import Relasitionship from "./components/Relasitionship";
+import Contact from "./components/Contact";
+import Magic from "./components/Magic";
+import Join from "./components/Join";
+import Footer from "./components/Footer";
+import Managements from "./components/Managements";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Hero /> */}
+      <Eyona/>
+      <Worldclass/>
+      <Ourproudect/>
+      <Relasitionship/>
+      <Contact/>
+      <Magic/>
+      <Managements/>
+      <Join/>
+      <Footer/>
+    </>
   );
 }
 
