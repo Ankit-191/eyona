@@ -222,6 +222,8 @@
 .text_worldclass {
   color: transparent;
   -webkit-text-stroke: 1px #000000;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .d_grid {
   display: grid;
@@ -408,7 +410,8 @@
 .contacttext::before {
   content: "Contact";
   position: absolute;
-  font-family: "Inter", sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: transparent;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.25);
   font-weight: 700;
@@ -459,6 +462,8 @@
 }
 .textmagic {
   color: transparent;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   -webkit-text-stroke: 1px #000000;
 }
 .recruitment_h600 {
@@ -511,7 +516,8 @@
 .teammanagement::before {
   content: "eyona";
   position: absolute;
-  font-family: "Inter", sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: transparent;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.25);
   font-weight: 700;
@@ -616,9 +622,9 @@
     --fs-6sm: 55px;
     --fs-6xl: 70px;
     --fs-7xl: 60px;
-    --fs-8xl: 85px;
-    --fs-15xl: 110px;
-    --fs-20xl: 160px;
+    --fs-8xl: 77px;
+    --fs-15xl: 120px;
+    --fs-20xl: 150px;
     --fs-45xl: 450px;
   }
   .eyona_circle::after {
@@ -680,10 +686,10 @@
     --fs-45xl: 360px;
   }
   .w_197 {
-    width: 120px;
+    width: 100px;
   }
   .h_197 {
-    height: 120px;
+    height: 100px;
   }
   .contacttext::before {
     top: -7%;

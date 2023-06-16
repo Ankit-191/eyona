@@ -20,7 +20,7 @@ const Managements = () => {
               </p>
             </Col>
             <Col xs={6} sm={4} lg={3} xxl={2}>
-              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill managmentimg team_w_215">
+              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill managmentimg team_w_215 m-auto">
                 <div className="stephandu text-center">
                   <p className="ff_inter fw_700 fs_lg clr_white mb-2">
                     Stephan Du Toit
@@ -37,7 +37,7 @@ const Managements = () => {
               </div>
             </Col>
             <Col xs={6} sm={4} lg={3} xxl={2}>
-              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 managmentimg">
+              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 m-auto managmentimg">
                 <div className="stephandu text-center">
                   <p className="ff_inter fw_700 fs_lg clr_white mb-2">
                     Stephan Du Toit
@@ -54,7 +54,7 @@ const Managements = () => {
               </div>
             </Col>
             <Col xs={6} sm={4} lg={3} xxl={2}>
-              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 managmentimg">
+              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 m-auto managmentimg">
                 <div className="stephandu text-center">
                   <p className="ff_inter fw_700 fs_lg clr_white mb-2">
                     Stephan Du Toit
@@ -71,7 +71,7 @@ const Managements = () => {
               </div>
             </Col>
             <Col xs={6} sm={4} lg={3} xxl={2}>
-              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 managmentimg">
+              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 m-auto managmentimg">
                 <div className="stephandu text-center">
                   <p className="ff_inter fw_700 fs_lg clr_white mb-2">
                     Stephan Du Toit
@@ -88,7 +88,7 @@ const Managements = () => {
               </div>
             </Col>
             <Col xs={6} sm={4} lg={3} xxl={2}>
-              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 managmentimg">
+              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 m-auto managmentimg">
                 <div className="stephandu text-center">
                   <p className="ff_inter fw_700 fs_lg clr_white mb-2">
                     Stephan Du Toit
@@ -105,7 +105,7 @@ const Managements = () => {
               </div>
             </Col>
             <Col xs={6} sm={4} lg={3} xxl={2}>
-              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 managmentimg">
+              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 m-auto managmentimg">
                 <div className="stephandu text-center">
                   <p className="ff_inter fw_700 fs_lg clr_white mb-2">
                     Stephan Du Toit
@@ -122,7 +122,7 @@ const Managements = () => {
               </div>
             </Col>
             <Col xs={6} sm={4} lg={3} xxl={2}>
-              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 managmentimg">
+              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 m-auto managmentimg">
                 <div className="stephandu text-center">
                   <p className="ff_inter fw_700 fs_lg clr_white mb-2">
                     Stephan Du Toit
@@ -139,7 +139,7 @@ const Managements = () => {
               </div>
             </Col>
             <Col xs={6} sm={4} lg={3} xxl={2}>
-              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 managmentimg">
+              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 m-auto managmentimg">
                 <div className="stephandu text-center">
                   <p className="ff_inter fw_700 fs_lg clr_white mb-2">
                     Stephan Du Toit

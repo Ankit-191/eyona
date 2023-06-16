@@ -27,9 +27,9 @@ const Worldclass = () => {
           <Row className="text-center text-lg-start">
             <Col lg={6}>
               <div className="pt-xl-5 mt-xl-5 ps-xxl-4 ms-xxl-3">
-                <p className=" ff_montserrat fw_700 fs_2sm clr_gray_300">
+                <p className=" ff_montserrat fw_400 fs_2sm clr_gray_300">
                   We create
-                  <a href="#" className="clr_red mx-1">
+                  <a href="#" className="clr_red fw_700 mx-1">
                     SaaS products
                   </a>
                   for markets that have the ability to generate substantial
