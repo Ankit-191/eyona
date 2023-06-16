@@ -18,9 +18,9 @@ const Header = () => {
     <>
       <section className="position-relative">
         <Container className="navcontainer">
-          <div className="d-flex justify-content-between py-5 align-items-center">
-            <img src={logo} alt="" className="ps-lg-4 ms-lg-2" />
-            <div className="d-flex gap-4 align-items-center">
+          <div className="d-flex justify-content-between py-lg-5 py-4 align-items-center">
+            <img src={logo} alt="logo" className="ps-xxl-4 ms-xxl-2 position-relative z-3" />
+            <div className="d-flex gap-sm-4 gap-2 align-items-center">
               <p className="mb-0 ff_inter fw_500 fs_xsm clr_black_100 ls_15em">
                 Let’s Talk
               </p>
@@ -38,34 +38,59 @@ const Header = () => {
             >
               <Container className="headercontainer overflow-auto">
                 <div className="headercircle rounded-pill"></div>
-                <div className="py-5 d-flex flex-column vh-100">
-                  <img src={navlogo} alt="" width={133} height={42} />
+                <div className="py-lg-5 py-4 d-flex flex-column vh-100">
+                  <img src={navlogo} alt="" width={133} height={42}/>
                   <div className="flex-grow-1 d-flex flex-column justify-content-center ">
                     <Row className="justify-content-between align-items-end text-center text-sm-start ">
                       <Col xl={6}>
-                        <ul className="ps-xxl-5 ms-xxl-5 my-auto h-100 mb-5 p-0 headerhover">
-                          <li className="ff_montserrat fw_700 fs_7xl clr_white ps-xxl-5">
-                            Who we are
+                        <ul className="ps-xxl-5 ms-xxl-5 my-auto h-100 mb-lg-5 mb-4 p-0 headerhover">
+                          <li className="ps-xxl-5">
+                            <a
+                              href="#"
+                              className="ff_montserrat fw_700 fs_7xl clr_white"
+                            >
+                              Who we are
+                            </a>
                           </li>
-                          <li className="ff_montserrat fw_700 fs_7xl clr_white ps-xxl-5">
-                            Our Companies
+                          <li className="ps-xxl-5">
+                            <a
+                              href="#"
+                              className="ff_montserrat fw_700 fs_7xl clr_white"
+                            >
+                              Our Companies
+                            </a>
                           </li>
-                          <li className="ff_montserrat fw_700 fs_7xl clr_white ps-xxl-5">
-                            What we do
+                          <li className="ps-xxl-5">
+                            <a
+                              href="#"
+                              className="ff_montserrat fw_700 fs_7xl clr_white"
+                            >
+                              What we do
+                            </a>
                           </li>
-                          <li className="ff_montserrat fw_700 fs_7xl clr_white ps-xxl-5">
-                            Contact us
+                          <li className="ps-xxl-5">
+                            <a
+                              href="#"
+                              className="ff_montserrat fw_700 fs_7xl clr_white"
+                            >
+                              Contact us
+                            </a>
                           </li>
-                          <li className="ff_montserrat fw_700 fs_7xl clr_white ps-xxl-5">
-                            Careers
+                          <li className="ps-xxl-5">
+                            <a
+                              href="#"
+                              className="ff_montserrat fw_700 fs_7xl clr_white"
+                            >
+                              Careers
+                            </a>
                           </li>
                         </ul>
                       </Col>
                       <Col xl={4}>
-                        <Row className="align-items-end">
+                        <Row className="align-items-end headerhover">
                           <Col sm={12}>
                             <ul className="p-0 mb-3">
-                              <li className="mb-2">
+                              <li className="mb-sm-2">
                                 <a
                                   href="#"
                                   className=" ff_montserrat fw_700 fs_2sm clr_red"
@@ -76,7 +101,7 @@ const Header = () => {
                               <li>
                                 <a
                                   href="#"
-                                  className=" ff_montserrat fw_400 fs_sm clr_white"
+                                  className="ff_montserrat fw_400 fs_sm clr_white"
                                 >
                                   Terms &
                                 </a>
@@ -100,14 +125,9 @@ const Header = () => {
                             </ul>
                           </Col>
                           <Col sm={6}>
-                            <ul className="p-0">
-                              <li className="mb-2">
-                                <a
-                                  href="#"
-                                  className=" ff_montserrat fw_700 fs_2sm clr_red"
-                                >
-                                  London
-                                </a>
+                            <ul className="p-0 headerhover">
+                              <li className="mb-sm-2 ff_montserrat fw_700 fs_2sm clr_red">
+                                London
                               </li>
                               <li>
                                 <a
@@ -124,13 +144,8 @@ const Header = () => {
                           </Col>
                           <Col sm={6}>
                             <ul className="p-0 d-flex flex-column align-items-center align-items-sm-start">
-                              <li className="mb-2">
-                                <a
-                                  href="#"
-                                  className=" ff_montserrat fw_700 fs_2sm clr_red"
-                                >
-                                  Cape Town
-                                </a>
+                              <li className="mb-sm-2 ff_montserrat fw_700 fs_2sm clr_red">
+                                Cape Town
                               </li>
                               <li className="capetown_mw_160px">
                                 <a
@@ -144,7 +159,7 @@ const Header = () => {
                             </ul>
                           </Col>
                           <Col sm={12} className="mt-3">
-                            <a href="#">
+                            <a href="#" className="linkdin">
                               <svg
                                 width="29"
                                 height="29"

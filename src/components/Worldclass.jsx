@@ -24,7 +24,7 @@ const Worldclass = () => {
           </p>
         </Container>
         <Container className="eyonacontainer py-xl-5 mt-lg-5 mt-4">
-          <Row>
+          <Row className="text-center">
             <Col lg={6}>
               <div className="pt-xl-5 mt-xl-5 ps-xxl-4 ms-xxl-3">
                 <p className=" ff_montserrat fw_700 fs_2sm clr_gray_300">
@@ -64,8 +64,8 @@ const Worldclass = () => {
             </Col>
           </Row>
         </Container>
-        <Container className="container_1576 py-4">
-          <Row className=" justify-content-between">
+        <Container className="container_1576 py-lg-4 pt-4">
+          <Row className="justify-content-between text-center text-lg-start">
             <Col lg={6} xl={5}>
               <div className="ps-xxl-2 mt-4 mt-lg-0">
                 <img
@@ -76,7 +76,7 @@ const Worldclass = () => {
                 <p className="ff_montserrat fw_700 fs_3xl clr_black_100 pt-lg-2 mb-2 mb-lg-4">
                   B2B Software
                 </p>
-                <p className=" ff_montserrat fw_400 fs_lg clr_gray_300">
+                <p className=" ff_montserrat fw_400 fs_lg clr_gray_300 mb-0 mb-lg-3">
                   Our products are the forefront of the industry, creating
                   streamlined processing for your business needs.
                 </p>
@@ -88,7 +88,7 @@ const Worldclass = () => {
                 <p className="ff_montserrat fw_700 fs_3xl clr_black_100 pt-lg-2 mb-2 mb-lg-4">
                   Eco-system Ownership
                 </p>
-                <p className=" ff_montserrat fw_400 fs_lg clr_gray_300">
+                <p className=" ff_montserrat fw_400 fs_lg clr_gray_300 mb-0 mb-lg-3">
                   We provide ourselves on making our products easy to use and
                   personalised for your business needs.
                 </p>
@@ -104,7 +104,7 @@ const Worldclass = () => {
                 <p className="ff_montserrat fw_700 fs_3xl clr_black_100 pt-lg-2 mb-2 mb-lg-4">
                   Globally Relevant
                 </p>
-                <p className=" ff_montserrat fw_400 fs_lg clr_gray_300">
+                <p className=" ff_montserrat fw_400 fs_lg clr_gray_300 mb-0 mb-lg-3">
                   All our software if fit for purpose and easy to scale across
                   your organisation in any country.
                 </p>
@@ -120,7 +120,7 @@ const Worldclass = () => {
                 <p className="ff_montserrat fw_700 fs_3xl clr_black_100 pt-lg-2 mb-2 mb-lg-4">
                   Industry Specific
                 </p>
-                <p className=" ff_montserrat fw_400 fs_lg clr_gray_300">
+                <p className=" ff_montserrat fw_400 fs_lg clr_gray_300 mb-0 mb-lg-3">
                   Our products are predominately tailored for a specific
                   vertical or industry. We empower domain experts, to ensure you
                   the best results.

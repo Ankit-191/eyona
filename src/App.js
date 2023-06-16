@@ -10,10 +10,12 @@ import Magic from "./components/Magic";
 import Join from "./components/Join";
 import Footer from "./components/Footer";
 import Managements from "./components/Managements";
+import Preloder from "./components/Preloder";
 
 function App() {
   return (
     <>
+      <Preloder/>
       <Hero />
       <Eyona/>
       <Worldclass/>

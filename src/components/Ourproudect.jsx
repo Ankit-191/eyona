@@ -15,7 +15,7 @@ import arivu from "../assets/img/svg/arivu.svg";
 const Ourproudect = () => {
   return (
     <>
-      <section className="py-5">
+      <section className="py-lg-5">
         <Container className="container1466">
           <h4 className="ff_inter fw_700 fs_8xl clr_black_100 text-center mb-4">
             Our products.
