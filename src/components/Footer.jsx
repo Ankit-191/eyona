@@ -9,7 +9,7 @@ const Footer = () => {
           <img
             src={eyona}
             alt="eyona"
-            className="my-lg-5 my-4 pb-2 footerlogow_324"
+            className="my-lg-5 mb-4 pb-lg-2 footerlogow_324"
           />
           <Row>
             <Col sm={12} lg={6} xl={4}>

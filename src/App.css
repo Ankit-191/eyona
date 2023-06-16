@@ -287,20 +287,20 @@
 .h_197 {
   height: 197px;
 }
-.loading_back{
+.loading_back {
   z-index: 150;
 }
-.loading_back img{
+.loading_back img {
   animation: preloder infinite 0.8s;
 }
 @keyframes preloder {
-  0%{
+  0% {
     scale: 1;
   }
-  50%{
+  50% {
     scale: 1.1;
   }
-  100%{
+  100% {
     scale: 1;
   }
 }
@@ -376,6 +376,7 @@
   position: absolute;
   right: 0;
   top: 6%;
+  z-index: -1;
 }
 .mt_neg52 {
   margin-top: -52px;
@@ -414,6 +415,7 @@
   font-size: var(--fs-20xl);
   top: 20%;
   left: 5px;
+  z-index: -1;
 }
 .message input {
   border-bottom: 1px solid #e6e6e6 !important;
@@ -652,7 +654,7 @@
     --fs-2sm: 22px;
     --fs-2xl: 28px;
     --fs-3sm: 35px;
-    --fs-3xl: 40px;
+    --fs-3xl: 37px;
     --fs-4xl: 38px;
     --fs-5xl: 45px;
     --fs-6sm: 55px;
@@ -660,8 +662,17 @@
     --fs-7xl: 75px;
     --fs-8xl: 64px;
     --fs-15xl: 90px;
-    --fs-20xl: 140px;
+    --fs-20xl: 115px;
     --fs-45xl: 360px;
+  }
+  .w_197 {
+    width: 120px;
+  }
+  .h_197 {
+    height: 120px;
+  }
+  .contacttext::before {
+    top: -7%;
   }
   .navcircle {
     width: 600px;
@@ -731,12 +742,6 @@
   .multi_top {
     transform: translateY(0%);
   }
-  .w_197 {
-    width: 150px;
-  }
-  .h_197 {
-    height: 150px;
-  }
   :root {
     --fs-xsm: 15px;
     --fs-sm: 16px;
@@ -790,6 +795,9 @@
   .team_w_215 {
     width: 150px;
   }
+  .pernod_w_100 {
+    width: 100%;
+  }
 }
 @media (max-width: 768px) {
   :root {
@@ -801,14 +809,14 @@
     --fs-2xl: 22px;
     --fs-3sm: 28px;
     --fs-3xl: 40px;
-    --fs-4xl: 50px;
+    --fs-4xl: 45px;
     --fs-5xl: 30px;
     --fs-6sm: 45px;
     --fs-6xl: 70px;
     --fs-7xl: 45px;
     --fs-8xl: 45px;
     --fs-15xl: 50px;
-    --fs-20xl: 100px;
+    --fs-20xl: 75px;
     --fs-45xl: 260px;
   }
   .lh_320px {
@@ -866,20 +874,20 @@
     --fs-xsm: 14px;
     --fs-sm: 14px;
     --fs-md: 14px;
-    --fs-lg: 16px;
+    --fs-lg: 14px;
     --fs-2sm: 18px;
     --fs-2xl: 20px;
     --fs-3sm: 24px;
     --fs-3xl: 24px;
-    --fs-4xl: 18px;
-    --fs-5xl: 23px;
+    --fs-4xl: 24px;
+    --fs-5xl: 24px;
     --fs-6sm: 25px;
     --fs-6xl: 70px;
-    --fs-7xl: 30px;
-    --fs-8xl: 24px;
+    --fs-7xl: 26px;
+    --fs-8xl: 26px;
     --fs-15xl: 29px;
-    --fs-20xl: 40px;
-    --fs-45xl: 200px;
+    --fs-20xl: 45px;
+    --fs-45xl: 220px;
   }
   .headercircle {
     width: 400px;
@@ -913,15 +921,22 @@
     width: 100%;
   }
   .lh_320px {
-    line-height: 130px;
+    line-height: 140px;
   }
   .eyonah_1271px {
-    height: 640px;
+    height: 600px;
   }
   .teammanagement::before {
     top: -3%;
   }
   .headitems4 {
     top: -20px;
+  }
+  .zooshcard::after {
+    top: 0;
+  }
+
+  .contacttext::before {
+    top: -3%;
   }
 }

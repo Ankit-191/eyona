@@ -20,15 +20,15 @@ const Ourproudect = () => {
           <h4 className="ff_inter fw_700 fs_8xl clr_black_100 text-center mb-4">
             Our products.
           </h4>
-          <p className="ff_inter fw_400 fs_lg clr_gray_300 text-center">
+          <p className="ff_inter fw_400 fs_lg clr_gray_300 text-center mb-0 mb-lg-3">
             We exclusively create and build B2B software. This specialization
             has helped us build
             <span className="d-lg-block">
               unmatched deep domain expertise for global fit and scale.
             </span>
           </p>
-          <Row className=" justify-content-center">
-            <Col md={9} lg={6} className="my-lg-5 my-4 py-xl-2">
+          <Row className="justify-content-center">
+            <Col md={9} lg={6} className="my-lg-5 mt-4 py-xl-2">
               <div className="truedatacard h-100 position-relative overflow-hidden me-xxl-2 d-flex flex-column justify-content-between">
                 <div className="px-2 px-md-4 px-xxl-5 pt-xxl-5 mt-md-5 mt-3 ms-xxl-4">
                   <img src={truedata} alt="truedata" className="mb-xxl-3" />
@@ -48,7 +48,7 @@ const Ourproudect = () => {
                 />
               </div>
             </Col>
-            <Col md={9} lg={6} className="my-lg-5 my-4 py-xl-2">
+            <Col md={9} lg={6} className="my-lg-5 mt-4 py-xl-2">
               <div className="repforcecard ms-xxl-2 h-100 d-flex flex-column justify-content-between">
                 <div className="px-2 px-md-4 px-xxl-5 pt-xxl-5 mt-md-5 mt-3 ms-xxl-4">
                   <img src={repforcetext} alt="repforcetext" />
@@ -68,7 +68,7 @@ const Ourproudect = () => {
                 />
               </div>
             </Col>
-            <Col md={9} lg={6} className="my-lg-5 my-4 py-xl-2">
+            <Col md={9} lg={6} className="my-lg-5 mt-4 py-xl-2">
               <div className="assetforcecard me-xxl-2 h-100 d-flex flex-column justify-content-between overflow-hidden">
                 <div className="px-2 px-md-4 px-xxl-5 pt-xxl-5 mt-md-5 mt-3 ms-xxl-4">
                   <img src={assetforcetext} alt="assetforcetext" />
@@ -88,7 +88,7 @@ const Ourproudect = () => {
                 />
               </div>
             </Col>
-            <Col md={9} lg={6} className="my-lg-5 my-4 py-xl-2">
+            <Col md={9} lg={6} className="my-lg-5 mt-4 py-xl-2">
               <div className="hrmangement ms-xxl-2 h-100 d-flex flex-column justify-content-between overflow-hidden position-relative">
                 <div className="px-2 px-md-4 px-xxl-5 pt-xxl-5 mt-md-5 mt-3 ms-xxl-4">
                   <img src={easyhr} alt="easyhr" />
@@ -108,7 +108,7 @@ const Ourproudect = () => {
                 />
               </div>
             </Col>
-            <Col md={9} lg={6} className="my-lg-5 my-4 py-xl-2">
+            <Col md={9} lg={6} className="my-lg-5 mt-4 py-xl-2">
               <div className="zooshcard me-xxl-2 h-100 d-flex flex-column justify-content-between overflow-hidden position-relative">
                 <div className="px-2 px-md-4 px-xxl-5 pt-xxl-5 mt-md-5 mt-3 me-xxl-5">
                   <img src={zoosh} alt="easyhr" />
@@ -124,7 +124,7 @@ const Ourproudect = () => {
                 <img src={gigzoosh} alt="gigzoosh" className="w-100" />
               </div>
             </Col>
-            <Col md={9} lg={6} className="my-lg-5 my-4 py-xl-2">
+            <Col md={9} lg={6} className="my-lg-5 mt-4 py-xl-2">
               <div className="arivucard ms-xxl-2 h-100 d-flex flex-column justify-content-between overflow-hidden position-relative">
                 <div className="px-2 px-md-4 px-xxl-5 pt-xxl-5 mt-md-5 mt-3 me-xxl-4">
                   <img src={arivu} alt="arivu" />

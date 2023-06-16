@@ -19,10 +19,9 @@ const Relasitionship = () => {
       <section className="py-5 my-lg-5">
         <Container className="container_1544">
           <p className=" ff_inter fw_700 fs_8xl lh_100px clr_black_100 text-center">
-            We’ve built relationships{" "}
-            <span className="d-lg-block">
-              {" "}
-              based on
+            We’ve built relationships 
+            <span className="d-lg-block mx-2">
+               based on
               <a href="#" className="clr_red mx-2">
                 trust.
               </a>
@@ -66,7 +65,7 @@ const Relasitionship = () => {
                 />
               </Col>
               <Col xs={6} md={4} lg={3} className="mb-5">
-                <img src={Pernod} alt="Pernod" className="relationsips_imgw" />
+                <img src={Pernod} alt="Pernod" className="pernod_w_100" />
               </Col>
               <Col xs={6} md={4} lg={3} className="mb-5">
                 <img src={kfc} alt="kfc" />

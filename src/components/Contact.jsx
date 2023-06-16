@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <>
       <section className="bg_black_100 py-5 py-xl-0">
-        <Container className="container_1552 contacttext contacth_1000 position-relative d-flex align-items-center">
+        <Container className="container_1552 contacttext contacth_1000 position-relative z-3 d-flex align-items-center">
           <Row className="justify-content-between">
             <Col lg={5} xl={4}>
               <p className="ff_inter fw_700 fs_7xl clr_white mb-xl-5 pb-xl-1">
@@ -45,12 +45,12 @@ const Contact = () => {
               <div className="message me-xxl-5">
                 <input
                   type="text"
-                  className="w-100 bg-transparent border-0 border-bottom-2 ff_inter fw_400 fs_sm clr_gray_200 mb-4 pb-3 ps-2"
+                  className="w-100 bg-transparent border-0 border-bottom-2 ff_inter fw_400 fs_sm clr_gray_200 mb-md-3 pb-md-3 pb-2 ps-2"
                   placeholder="Your Name"
                 />
                 <input
                   type="email"
-                  className="w-100 bg-transparent border-0 ff_inter fw_400 fs_sm clr_gray_200 mb-4 mt-3 pb-3 ps-2"
+                  className="w-100 bg-transparent border-0 ff_inter fw_400 fs_sm clr_gray_200 my-4 pb-md-3 pb-2 ps-2"
                   placeholder="Your Email"
                 />
                 <textarea
@@ -58,9 +58,9 @@ const Contact = () => {
                   placeholder="What would you like to know?"
                   cols="30"
                   rows="6"
-                  className="w-100 bg-transparent ff_inter fw_400 fs_sm clr_gray_200 mt-3 ps-2 mb-4"
+                  className="w-100 bg-transparent ff_inter fw_400 fs_sm clr_gray_200 mt-lg-3 ps-2 mb-4"
                 ></textarea>
-                <button className="ff_montserrat fw_700 fs_md clr_white bg_red rounded-pill sendbtn border-0 mt-3">
+                <button className="ff_montserrat fw_700 fs_md clr_white bg_red rounded-pill sendbtn border-0 mt-md-3">
                   Send Message
                 </button>
               </div>

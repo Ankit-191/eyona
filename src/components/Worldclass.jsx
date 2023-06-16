@@ -24,7 +24,7 @@ const Worldclass = () => {
           </p>
         </Container>
         <Container className="eyonacontainer py-xl-5 mt-lg-5 mt-4">
-          <Row className="text-center">
+          <Row className="text-center text-lg-start">
             <Col lg={6}>
               <div className="pt-xl-5 mt-xl-5 ps-xxl-4 ms-xxl-3">
                 <p className=" ff_montserrat fw_700 fs_2sm clr_gray_300">

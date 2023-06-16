@@ -9,7 +9,7 @@ const Magic = () => {
           <Row className="align-items-center">
             <Col lg={6}>
               <div className="px-xxl-5">
-                <h5 className="ff_inter fw_700 fs_8xl clr_black_100 mb-lg-4 pb-2">
+                <h5 className="ff_inter fw_700 fs_8xl clr_black_100 mb-4 pb-lg-2">
                   How we make 
                   <span className="d-lg-block"> 
                     <a href="#" className="clr_red mx-2">
@@ -18,7 +18,7 @@ const Magic = () => {
                     happen.
                   </span>
                 </h5>
-                <p className="ff_inter fs_lg fw_400 clr_gray_300 mt-1">
+                <p className="ff_inter fs_lg fw_400 clr_gray_300 mt-lg-1">
                   We seek breakthroughs that will stand the test of time. We
                   keep experimenting that's how we innovate. Innovation we
                   believe is admired but execution is worshipped. We love the

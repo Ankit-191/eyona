@@ -4,7 +4,7 @@ import recruitment from "../assets/img/webp/recruitment.webp";
 const Join = () => {
   return (
     <>
-      <section className="py-5 position-relative overflow-hidden joincircle">
+      <section className="py-5 mt-lg-5 position-relative overflow-hidden joincircle">
         <Container className="container_1544">
           <p className="ff_inter fw_700 fs_8xl clr_black_100 mb-lg-5 mb-4 text-center lh_100px me-xxl-4">
             Join the
