@@ -1,13 +1,13 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import teammanagement1 from "../assets/img/png/teammanagement1.png";
-import teammanagement2 from "../assets/img/png/teammanagement2.png";
-import teammanagement3 from "../assets/img/png/teammanagement3.png";
-import teammanagement4 from "../assets/img/png/teammanagement4.png";
-import teammanagement5 from "../assets/img/png/teammanagement5.png";
-import teammanagement6 from "../assets/img/png/teammanagement6.png";
-import teammanagement7 from "../assets/img/png/teammanagement7.png";
-import teammanagement8 from "../assets/img/png/teammanagement8.png";
+import teammanagement1 from "../assets/img/webp/teammanagement1.webp";
+import teammanagement2 from "../assets/img/webp/teammanagement2.webp";
+import teammanagement3 from "../assets/img/webp/teammanagement3.webp";
+import teammanagement4 from "../assets/img/webp/teammanagement4.webp";
+import teammanagement5 from "../assets/img/webp/teammanagement5.webp";
+import teammanagement6 from "../assets/img/webp/teammanagement6.webp";
+import teammanagement7 from "../assets/img/webp/teammanagement7.webp";
+import teammanagement8 from "../assets/img/webp/teammanagement8.webp";
 const Managements = () => {
   return (
     <>
@@ -22,8 +22,12 @@ const Managements = () => {
             <Col xs={6} sm={4} lg={3} xxl={2}>
               <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill managmentimg team_w_215">
                 <div className="stephandu text-center">
-                <p className="ff_inter fw_700 fs_lg clr_white mb-2">Stephan Du Toit</p>
-                <p className="ff_inter fw_400 fs_xsm clr_white mb-0">Chief Operations Officer</p>
+                  <p className="ff_inter fw_700 fs_lg clr_white mb-2">
+                    Stephan Du Toit
+                  </p>
+                  <p className="ff_inter fw_400 fs_xsm clr_white mb-0">
+                    Chief Operations Officer
+                  </p>
                 </div>
                 <img
                   src={teammanagement1}
@@ -35,8 +39,12 @@ const Managements = () => {
             <Col xs={6} sm={4} lg={3} xxl={2}>
               <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 managmentimg">
                 <div className="stephandu text-center">
-                <p className="ff_inter fw_700 fs_lg clr_white mb-2">Stephan Du Toit</p>
-                <p className="ff_inter fw_400 fs_xsm clr_white mb-0">Chief Operations Officer</p>
+                  <p className="ff_inter fw_700 fs_lg clr_white mb-2">
+                    Stephan Du Toit
+                  </p>
+                  <p className="ff_inter fw_400 fs_xsm clr_white mb-0">
+                    Chief Operations Officer
+                  </p>
                 </div>
                 <img
                   src={teammanagement2}
@@ -48,8 +56,12 @@ const Managements = () => {
             <Col xs={6} sm={4} lg={3} xxl={2}>
               <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 managmentimg">
                 <div className="stephandu text-center">
-                <p className="ff_inter fw_700 fs_lg clr_white mb-2">Stephan Du Toit</p>
-                <p className="ff_inter fw_400 fs_xsm clr_white mb-0">Chief Operations Officer</p>
+                  <p className="ff_inter fw_700 fs_lg clr_white mb-2">
+                    Stephan Du Toit
+                  </p>
+                  <p className="ff_inter fw_400 fs_xsm clr_white mb-0">
+                    Chief Operations Officer
+                  </p>
                 </div>
                 <img
                   src={teammanagement3}
@@ -61,8 +73,12 @@ const Managements = () => {
             <Col xs={6} sm={4} lg={3} xxl={2}>
               <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 managmentimg">
                 <div className="stephandu text-center">
-                <p className="ff_inter fw_700 fs_lg clr_white mb-2">Stephan Du Toit</p>
-                <p className="ff_inter fw_400 fs_xsm clr_white mb-0">Chief Operations Officer</p>
+                  <p className="ff_inter fw_700 fs_lg clr_white mb-2">
+                    Stephan Du Toit
+                  </p>
+                  <p className="ff_inter fw_400 fs_xsm clr_white mb-0">
+                    Chief Operations Officer
+                  </p>
                 </div>
                 <img
                   src={teammanagement4}
@@ -74,8 +90,12 @@ const Managements = () => {
             <Col xs={6} sm={4} lg={3} xxl={2}>
               <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 managmentimg">
                 <div className="stephandu text-center">
-                <p className="ff_inter fw_700 fs_lg clr_white mb-2">Stephan Du Toit</p>
-                <p className="ff_inter fw_400 fs_xsm clr_white mb-0">Chief Operations Officer</p>
+                  <p className="ff_inter fw_700 fs_lg clr_white mb-2">
+                    Stephan Du Toit
+                  </p>
+                  <p className="ff_inter fw_400 fs_xsm clr_white mb-0">
+                    Chief Operations Officer
+                  </p>
                 </div>
                 <img
                   src={teammanagement5}
@@ -87,8 +107,12 @@ const Managements = () => {
             <Col xs={6} sm={4} lg={3} xxl={2}>
               <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 managmentimg">
                 <div className="stephandu text-center">
-                <p className="ff_inter fw_700 fs_lg clr_white mb-2">Stephan Du Toit</p>
-                <p className="ff_inter fw_400 fs_xsm clr_white mb-0">Chief Operations Officer</p>
+                  <p className="ff_inter fw_700 fs_lg clr_white mb-2">
+                    Stephan Du Toit
+                  </p>
+                  <p className="ff_inter fw_400 fs_xsm clr_white mb-0">
+                    Chief Operations Officer
+                  </p>
                 </div>
                 <img
                   src={teammanagement6}
@@ -100,8 +124,12 @@ const Managements = () => {
             <Col xs={6} sm={4} lg={3} xxl={2}>
               <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 managmentimg">
                 <div className="stephandu text-center">
-                <p className="ff_inter fw_700 fs_lg clr_white mb-2">Stephan Du Toit</p>
-                <p className="ff_inter fw_400 fs_xsm clr_white mb-0">Chief Operations Officer</p>
+                  <p className="ff_inter fw_700 fs_lg clr_white mb-2">
+                    Stephan Du Toit
+                  </p>
+                  <p className="ff_inter fw_400 fs_xsm clr_white mb-0">
+                    Chief Operations Officer
+                  </p>
                 </div>
                 <img
                   src={teammanagement7}
@@ -113,8 +141,12 @@ const Managements = () => {
             <Col xs={6} sm={4} lg={3} xxl={2}>
               <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 managmentimg">
                 <div className="stephandu text-center">
-                <p className="ff_inter fw_700 fs_lg clr_white mb-2">Stephan Du Toit</p>
-                <p className="ff_inter fw_400 fs_xsm clr_white mb-0">Chief Operations Officer</p>
+                  <p className="ff_inter fw_700 fs_lg clr_white mb-2">
+                    Stephan Du Toit
+                  </p>
+                  <p className="ff_inter fw_400 fs_xsm clr_white mb-0">
+                    Chief Operations Officer
+                  </p>
                 </div>
                 <img
                   src={teammanagement8}
