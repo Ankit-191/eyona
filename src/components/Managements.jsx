@@ -20,106 +20,106 @@ const Managements = () => {
               </p>
             </Col>
             <Col xs={6} sm={4} lg={3} xxl={2}>
-              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill managmentimg">
-                <div className="stephandu">
+              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill managmentimg team_w_215">
+                <div className="stephandu text-center">
                 <p className="ff_inter fw_700 fs_lg clr_white mb-2">Stephan Du Toit</p>
                 <p className="ff_inter fw_400 fs_xsm clr_white mb-0">Chief Operations Officer</p>
                 </div>
                 <img
                   src={teammanagement1}
                   alt="teammanagement1"
-                  className="team_w_215"
+                  className="w-100 rounded-pill"
                 />
               </div>
             </Col>
             <Col xs={6} sm={4} lg={3} xxl={2}>
-              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill managmentimg">
-                <div className="stephandu">
+              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 managmentimg">
+                <div className="stephandu text-center">
                 <p className="ff_inter fw_700 fs_lg clr_white mb-2">Stephan Du Toit</p>
                 <p className="ff_inter fw_400 fs_xsm clr_white mb-0">Chief Operations Officer</p>
                 </div>
                 <img
                   src={teammanagement2}
                   alt="teammanagement1"
-                  className="team_w_215"
+                  className="w-100 rounded-pill"
                 />
               </div>
             </Col>
             <Col xs={6} sm={4} lg={3} xxl={2}>
-              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill managmentimg">
-                <div className="stephandu">
+              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 managmentimg">
+                <div className="stephandu text-center">
                 <p className="ff_inter fw_700 fs_lg clr_white mb-2">Stephan Du Toit</p>
                 <p className="ff_inter fw_400 fs_xsm clr_white mb-0">Chief Operations Officer</p>
                 </div>
                 <img
                   src={teammanagement3}
                   alt="teammanagement1"
-                  className="team_w_215"
+                  className="w-100 rounded-pill"
                 />
               </div>
             </Col>
             <Col xs={6} sm={4} lg={3} xxl={2}>
-              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill managmentimg">
-                <div className="stephandu">
+              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 managmentimg">
+                <div className="stephandu text-center">
                 <p className="ff_inter fw_700 fs_lg clr_white mb-2">Stephan Du Toit</p>
                 <p className="ff_inter fw_400 fs_xsm clr_white mb-0">Chief Operations Officer</p>
                 </div>
                 <img
                   src={teammanagement4}
                   alt="teammanagement1"
-                  className="team_w_215"
+                  className="w-100 rounded-pill"
                 />
               </div>
             </Col>
             <Col xs={6} sm={4} lg={3} xxl={2}>
-              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill managmentimg">
-                <div className="stephandu">
+              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 managmentimg">
+                <div className="stephandu text-center">
                 <p className="ff_inter fw_700 fs_lg clr_white mb-2">Stephan Du Toit</p>
                 <p className="ff_inter fw_400 fs_xsm clr_white mb-0">Chief Operations Officer</p>
                 </div>
                 <img
                   src={teammanagement5}
                   alt="teammanagement1"
-                  className="team_w_215"
+                  className="w-100 rounded-pill"
                 />
               </div>
             </Col>
             <Col xs={6} sm={4} lg={3} xxl={2}>
-              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill managmentimg">
-                <div className="stephandu">
+              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 managmentimg">
+                <div className="stephandu text-center">
                 <p className="ff_inter fw_700 fs_lg clr_white mb-2">Stephan Du Toit</p>
                 <p className="ff_inter fw_400 fs_xsm clr_white mb-0">Chief Operations Officer</p>
                 </div>
                 <img
                   src={teammanagement6}
                   alt="teammanagement1"
-                  className="team_w_215"
+                  className="w-100 rounded-pill"
                 />
               </div>
             </Col>
             <Col xs={6} sm={4} lg={3} xxl={2}>
-              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill managmentimg">
-                <div className="stephandu">
+              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 managmentimg">
+                <div className="stephandu text-center">
                 <p className="ff_inter fw_700 fs_lg clr_white mb-2">Stephan Du Toit</p>
                 <p className="ff_inter fw_400 fs_xsm clr_white mb-0">Chief Operations Officer</p>
                 </div>
                 <img
                   src={teammanagement7}
                   alt="teammanagement1"
-                  className="team_w_215"
+                  className="w-100 rounded-pill"
                 />
               </div>
             </Col>
             <Col xs={6} sm={4} lg={3} xxl={2}>
-              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill managmentimg">
-                <div className="stephandu">
+              <div className="my-lg-5 my-3 position-relative overflow-hidden rounded-pill team_w_215 managmentimg">
+                <div className="stephandu text-center">
                 <p className="ff_inter fw_700 fs_lg clr_white mb-2">Stephan Du Toit</p>
                 <p className="ff_inter fw_400 fs_xsm clr_white mb-0">Chief Operations Officer</p>
                 </div>
                 <img
                   src={teammanagement8}
                   alt="teammanagement1"
-                  className="team_w_215"
+                  className="w-100 rounded-pill"
                 />
               </div>
             </Col>
