@@ -184,7 +184,7 @@
   background-color: var(--clr-red);
   padding: 16px 34px;
   transition: all 0.3s linear;
-  border: transparent;
+  border: 1px solid transparent;
 }
 .btnred:hover {
   background-color: var(--clr-white);
@@ -520,8 +520,8 @@
   left: 5px;
   z-index: 0;
 }
-.teammanagement img:hover {
-  transform: scale(1.1);
+.managmentimg:hover .stephandu {
+  top: 0;
 }
 .team_w_215 {
   width: 215px;
@@ -531,6 +531,20 @@
 }
 .headerhover a:hover {
   color: var(--clr-red);
+}
+.stephandu {
+  width: 215px;
+  height: 215px;
+  background-color: var(--clr-red);
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -102%;
+  cursor: pointer;
+  transition: all 0.5s linear;
 }
 @media (min-width: 1441px) {
   .lh_eyona {

@@ -102,7 +102,7 @@ const Relasitionship = () => {
               </Col>
             </Row>
           </div>
-          <Row className="justify-content-center text-center mx-1 mx-sm-0">
+          <Row className="justify-content-center text-center mx-1 mx-sm-0 mb-5">
             <Col xs={4} sm={3} lg={2} className="bg_red borderradius py-3">
               <p className="ff_inter fw_700 fs_4xl clr_white mb-0">6</p>
               <p className="ff_inter fw_700 fs_sm clr_gray_200">Products</p>
